@@ -19,7 +19,8 @@ public class DecisionTreeMain {
             e.printStackTrace();
         }
 
-        printTree(parentNode, 0);
+        printTree(parentNode, 0);// writes tree to tree.dat
+        stdoutTree(parentNode, 0); // writes tree to stdout
 
         printWriter.flush();
         printWriter.close();
@@ -43,6 +44,27 @@ public class DecisionTreeMain {
 
         for (DecisionTreeNode childNode : node.nodeList) {
             printTree(childNode, depth + 1);
+        }
+    }
+
+    private static void stdoutTree(DecisionTreeNode node, int depth) {
+        if (depth > 0) {
+            for (int i = 0; i < depth - 1; i++) {
+                System.out.print("| ");
+            }
+
+            System.out.print(node.columnName + " = " + node.columnValue + " : ");
+            if (node.output != null) {
+                System.out.print(node.output);
+            }
+
+            // printWriter.print("    " + node.entropy);
+
+            System.out.println();
+        }
+
+        for (DecisionTreeNode childNode : node.nodeList) {
+            stdoutTree(childNode, depth + 1);
         }
     }
 }

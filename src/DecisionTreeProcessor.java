@@ -1,3 +1,11 @@
+/*
+    This file prints out the tree and then tests the accuracy of the tree
+    it takes in 2 arguments, the first one is the training file name that was used to create the tree
+    the second one is the testfile that the tree will be tested on
+    The test line class checks to see if the class given by the tree matches the actual class
+
+ */
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;

@@ -8,6 +8,11 @@ Our code contains two parts, first to train the tree, and secondly to test data 
 
 It's important to train the tree first in order to generate it, then run the processor with the generated tree.
 
+0. Compile the code using 
+
+javac DecisionTreeMain.java
+javac DecisionTreeProcessor.java
+
 1. Run DecisionTreeMain with an argument that contains the training data file name that the tree will be trained on.
 	EX: java DecisionTreeMain "train.dat"
 

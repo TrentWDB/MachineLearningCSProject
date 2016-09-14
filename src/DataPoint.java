@@ -1,3 +1,11 @@
+/*
+    This class consists of the data point that we use inside the nodes of our tree
+    it is like a "row" of the given data
+    It also includes a function to clone to a different data point and
+    a tostring method to print the datapoint
+
+ */
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

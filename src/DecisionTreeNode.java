@@ -1,3 +1,10 @@
+/*
+    This is the class that contains the node structure that is used to create the decision tree
+    It calculates the entropy to check which class to choose to move onto the next step and
+    does this recursively until there are no more classes or there are only pure nodes
+
+ */
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

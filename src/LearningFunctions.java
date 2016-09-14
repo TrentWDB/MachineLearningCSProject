@@ -1,3 +1,7 @@
+/*
+    contains the functions to calculate entropy, information gain and a log base 2 function
+ */
+
 public class LearningFunctions {
     public static double calculateEntropy(double[] probabilities) {
         double summation = 0;

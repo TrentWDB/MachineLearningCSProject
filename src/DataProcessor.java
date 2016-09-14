@@ -1,3 +1,8 @@
+/*
+    this class is used to process the decision tree that is stored in a file that was created in decision tree main
+    it reads in a file name and creates a decision tree from the file
+ */
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;

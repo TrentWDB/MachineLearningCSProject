@@ -1,3 +1,9 @@
+/*
+    This class is the main method, it creates a tree from a file and stores it in a file called tree.dat
+    It then prints out the tree
+
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

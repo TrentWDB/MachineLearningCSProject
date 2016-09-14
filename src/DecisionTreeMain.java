@@ -7,7 +7,7 @@ public class DecisionTreeMain {
     private static PrintWriter printWriter;
 
     public static void main(String[] args) {
-        List<DataPoint> dataPoints = DataProcessor.processData(new File("train.dat"));
+        List<DataPoint> dataPoints = DataProcessor.processData(new File(args[0]));
 
         DecisionTreeNode parentNode = new DecisionTreeNode(dataPoints, null, null);
         parentNode.appendChildren();

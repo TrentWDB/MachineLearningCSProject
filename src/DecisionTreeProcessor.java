@@ -32,6 +32,9 @@ public class DecisionTreeProcessor {
     }
 
     private static void testFile(FinalDecisionTreeNode decisionTree, File file) {
+        correctCount = 0;
+        count = 0;
+
         String testString = "";
         try {
             testString = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())), Charset.defaultCharset());
@@ -70,6 +73,10 @@ class TestLine {
     }
 
     public String determineClass(FinalDecisionTreeNode node) {
+        if (node == null) {
+            return "";
+        }
+
         if (node.output != null) {
             return node.output;
         }

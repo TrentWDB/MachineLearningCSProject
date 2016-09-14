@@ -34,10 +34,6 @@ public class DecisionTreeProcessor {
     private static void testFile(FinalDecisionTreeNode decisionTree, File file) {
         correctCount = 0;
         count = 0;
-<<<<<<< HEAD
-=======
-
->>>>>>> fca529e25b033c127e1ad364afab01aa7968a30a
         String testString = "";
         try {
             testString = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())), Charset.defaultCharset());
@@ -79,10 +75,6 @@ class TestLine {
         if (node == null) {
             return "";
         }
-<<<<<<< HEAD
-=======
-
->>>>>>> fca529e25b033c127e1ad364afab01aa7968a30a
         if (node.output != null) {
             return node.output;
         }

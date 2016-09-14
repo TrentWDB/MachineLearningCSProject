@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554fbac7-f85e-4682-a9af-702a441fe2e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CS4375 Project 1/DecisionTree.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CS4375 Project 1/DataPoint.class" afterPath="$PROJECT_DIR$/out/production/CS4375 Project 1/DataPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CS4375 Project 1/DataProcessor.class" afterPath="$PROJECT_DIR$/out/production/CS4375 Project 1/DataProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CS4375 Project 1/DecisionTreeMain.class" afterPath="$PROJECT_DIR$/out/production/CS4375 Project 1/DecisionTreeMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CS4375 Project 1/DecisionTreeNode.class" afterPath="$PROJECT_DIR$/out/production/CS4375 Project 1/DecisionTreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CS4375 Project 1/LearningFunctions.class" afterPath="$PROJECT_DIR$/out/production/CS4375 Project 1/LearningFunctions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DecisionTreeMain.java" afterPath="$PROJECT_DIR$/src/DecisionTreeMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DecisionTreeProcessor.java" afterPath="$PROJECT_DIR$/src/DecisionTreeProcessor.java" />
     </list>
     <ignored path="CS4375 Project 1.iws" />
@@ -48,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/DataProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +75,8 @@
       <file leaf-file-name="DecisionTreeProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DecisionTreeProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="159">
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/DecisionTreeNode.java" />
         <option value="$PROJECT_DIR$/src/DataPoint.java" />
         <option value="$PROJECT_DIR$/src/DataProcessor.java" />
-        <option value="$PROJECT_DIR$/src/DecisionTreeProcessor.java" />
         <option value="$PROJECT_DIR$/src/DecisionTreeMain.java" />
+        <option value="$PROJECT_DIR$/src/DecisionTreeProcessor.java" />
       </list>
     </option>
   </component>
@@ -717,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -736,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecisionTreeProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="159">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

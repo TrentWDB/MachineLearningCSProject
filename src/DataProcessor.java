@@ -27,7 +27,7 @@ public class DataProcessor {
         String[] fileLines = fileString.split("\\r?\\n");
         String[] columnNames = fileLines[0].split("\\s+");
 
-        for (int i = 1; i < fileLines.length / 3; i++) {
+        for (int i = 1; i < fileLines.length; i++) {
             String[] columnValues = fileLines[i].split("\\s+");
 
             DataPoint dataPoint = new DataPoint(columnNames, columnValues);

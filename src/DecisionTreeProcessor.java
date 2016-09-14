@@ -9,8 +9,8 @@ public class DecisionTreeProcessor {
     private static int correctCount = 0;
     public static void main(String[] args) {
         File treeFile = new File("tree.dat");
-        File trainingFile = new File("train.dat");
-        File testFile = new File("test.dat");
+        File trainingFile = new File(args[0]);
+        File testFile = new File(args[1]);
 
         FinalDecisionTreeNode decisionTree = DataProcessor.constructDecisionTree(treeFile);
 
@@ -83,10 +83,6 @@ class TestLine {
                 break;
             }
         }
-        // System.out.println(node.columnName + " - " + columnValues[index]);
-        // System.out.println(node.columnValueToNodeMap.get(columnValues[index]).columnName);
-        // System.out.println(node.columnValueToNodeMap.get(columnValues[index]).output);
-        // System.out.println();
 
         return determineClass(node.columnValueToNodeMap.get(columnValues[index]));
     }

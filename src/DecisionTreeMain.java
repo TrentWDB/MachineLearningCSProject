@@ -7,7 +7,7 @@ public class DecisionTreeMain {
     private static PrintWriter printWriter;
 
     public static void main(String[] args) {
-        List<DataPoint> dataPoints = DataProcessor.processData(new File(args[0]));
+        List<DataPoint> dataPoints = DataProcessor.processData(new File("train.dat"));
 
         DecisionTreeNode parentNode = new DecisionTreeNode(dataPoints, null, null);
         parentNode.appendChildren();
@@ -36,8 +36,6 @@ public class DecisionTreeMain {
             if (node.output != null) {
                 printWriter.print(node.output);
             }
-
-            // printWriter.print("    " + node.entropy);
 
             printWriter.println();
         }
